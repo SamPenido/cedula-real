@@ -1,0 +1,31 @@
+
+.logo {
+  max-width: 82px;
+}
+
+.menu {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 15px;
+}
+
+.menu .nav-item .nav-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.menu .nav-item .nav-link:hover {
+  color: #5f0a14;
+  text-decoration: underline;
+}
+
+.menu .nav-item .btn {
+  display: inline-block;
+}
+
+.menu .nav-item .btn:hover {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}

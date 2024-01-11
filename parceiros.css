@@ -1,0 +1,112 @@
+/* Estilização da seção do título */
+.titulo {
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.titulo h1 {
+  font-weight: 300;
+  font-size: 36px;
+  padding: 10px 20px;
+  display: inline-block;
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  padding: 15px; /* Reduzindo o padding para telas menores */
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.068);
+  
+
+}
+
+/* Estilização da seção dos parceiros */
+#parceiros-section {
+  padding: 40px 0;
+  background-color: #f2f2f2;
+  max-width: 500px;
+}
+
+.parceiros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;  /* Reduzindo a largura */
+  margin-bottom: 60px;
+  padding: 30px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+  
+}
+
+.parceiros h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.parceiros a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+  transition: transform 0.3s ease;
+}
+
+.parceiros a:hover {
+  transform: scale(1.10);
+}
+
+/* ... (códigos anteriores) ... */
+
+/* Estilização da seção dos parceiros */
+.parceiros img {
+  width: 320px;
+  height: 280px;
+  object-fit: contain;
+  object-position: center center;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 0.5px solid #e0e0e0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+  .titulo h1 {
+    font-size: 30px;
+  }
+
+  .parceiros {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .parceiros img {
+    width: 180px; /* Definindo largura consistente para todos os parceiros */
+    height: 180px; /* Mantendo a altura igual para evitar deformações */
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 435px) {
+  .titulo h1 {
+    font-size: 25px;
+  }
+
+  .parceiros img {
+    width: 150px; /* Reduzindo a largura para dispositivos ainda mais estreitos */
+    height: 150px; /* Mantendo a altura igual */
+    margin-bottom: 60px;
+  }
+}
+

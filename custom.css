@@ -1,0 +1,47 @@
+body {
+  overflow-x: hidden;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+body.full {
+  height: 100vh;
+}
+
+a {
+
+}
+
+a:hover {
+  color: #0056b3;
+  transition: all 0.3s ease;
+  text-decoration: underline;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  text-align: right;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  color: white !important;
+  background-color: #5f0a14;
+}
+
+.texto {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 22px auto;
+  padding: 0 20px;
+}
+
+.texto h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}

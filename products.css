@@ -1,0 +1,203 @@
+/* Estilos Gerais */
+
+body 
+.product-page {
+  font-family: 'Arial', sans-serif;
+}
+
+.container2 {
+  margin: 100px auto;
+  padding: 0 15px;
+  font-family: 'Arial', sans-serif;
+  max-width: 60%;
+  margin: 50px auto;
+  padding: 15px; /* Reduzindo o padding para telas menores */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.068);
+  
+}
+
+/* Títulos e Descrições */
+.product-page h1, 
+.product-page .section-title {
+  font-size: 2.25rem;
+  margin: 3.125rem 0;
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 15px; /* Reduzindo o padding para telas menores */
+  text-align: center;
+ 
+  
+}
+
+.product-page .section-description, 
+.product-page .product p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 1.875rem;
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 15px; /* Reduzindo o padding para telas menores */
+  text-align: left;
+ 
+}
+
+/* Listas */
+.product-page .section-list {
+  list-style-type: disc;
+  margin-left: 1.875rem;
+  margin-bottom: 1.875rem;
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 15px; /* Reduzindo o padding para telas menores */
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.068);
+}
+
+.product-page .section-list li {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.625rem;
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 15px; /* Reduzindo o padding para telas menores */
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.068);
+}
+
+/* Seções */
+.product-page .section {
+  padding: 6.25rem 0;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px; /* Borda arredondada */
+  border: 1px solid #e0e0e0; /* Borda suave */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+  transition: box-shadow 0.3s ease; /* Transição suave */
+  margin-bottom: 2.5rem; /* Espaçamento inferior */
+}
+
+.product-page .section:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Efeito de hover com sombra mais pronunciada */
+}
+
+/* Produtos */
+.product-page .product {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  padding: 3.125rem;
+  margin-bottom: 1.875rem;
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 15px; /* Reduzindo o padding para telas menores */
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.068);
+}
+
+
+
+/* Vídeo Responsivo */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed,
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  margin-top: 90px;
+  margin-left: auto;  /* Para centralizar o botão horizontalmente */
+  margin-right: auto; /* Para centralizar o botão horizontalmente */
+  width: 350px;       /* Largura reduzida do botão */
+  display: block;     /* Torna o botão um elemento de bloco para centralização */
+  text-align: center;
+  padding: 1.3em 3em;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;        /* Cor padrão do texto do botão */
+  background-color: #ffffff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #5f0a14;
+  box-shadow: 0px 15px 20px rgba(153, 5, 5, 0.4);
+  color: #fff !important;
+  transform: translateY(-7px);
+}
+
+.button:active {
+  transform: translateY(-1px);
+}
+.button a {
+  color: #000 ;  /* Define a cor do link como preta e usa !important para garantir a sobrescrita */
+  text-decoration: none;
+}
+.button a:hover{
+  color: #fff !important;
+  text-decoration: none;
+} 
+
+/* Para remover a cor azul padrão dos links */
+.button, .button:hover, .button:active {
+  text-decoration: none;
+}
+
+/* Se quiser aplicar o mesmo estilo a outros links, use a seguinte regra */
+.button a {
+  color: inherit;     /* Herda a cor do container (neste caso, do botão) */
+  text-decoration: none;
+}
+
+
+/* Responsividade */
+@media (max-width: 435px), (max-width: 768px) {
+  .product-page #botao {
+    margin: 10% auto;
+  }
+  .product-page h1, 
+.product-page .section-title {
+  font-size: 25px;
+}
+
+.container2 h3 {
+  font-size: 20px;
+}
+
+.container2 {
+  max-width: 95%;
+}
+
+}

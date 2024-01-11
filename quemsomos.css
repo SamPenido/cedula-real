@@ -1,0 +1,73 @@
+/* Estilos padrão para a seção de texto */
+.texto {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 15px; /* Reduzindo o padding para telas menores */
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.068);
+}
+
+.texto h1 {
+  color: #000000;
+  font-size: 2em; /* Reduzindo o tamanho da fonte para telas menores */
+  margin-bottom: 25px; /* Reduzindo o espaço para telas menores */
+  text-transform: uppercase;
+}
+
+.texto p {
+  color: #000000;
+  font-size: 17px; /* Reduzindo o tamanho da fonte para telas menores */
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Media query para telas menores */
+
+
+@media (max-width: 896px) {
+  .texto {
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .texto h1  {
+    padding: 10px;
+  }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+  .texto {
+    padding: 10px; /* Ajustando ainda mais o padding para telas menores */
+  }
+
+  .texto h1 {
+    font-size: 1.8em; /* Ajustando o tamanho da fonte para telas menores */
+    margin-bottom: 10px;
+  }
+
+  .texto p {
+    font-size: 12px; /* Ajustando o tamanho da fonte para telas menores */
+    margin: 20px;
+  }
+}
+@media (max-width: 436px) {
+  .texto p {
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+
+  .texto h1 {
+    margin-bottom: 30px;
+  }
+}
